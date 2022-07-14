@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+function vocaliCounter(stringa){
+   const carrello = stringa.split('')
+let count = 0
+const vocaliList = ['a','e','i','u','o'];
+for (let i = 0; i < carrello.length; i++){
+    if (vocaliList.includes(carrello[i])){
+        count++;
+    }
+  }
+return count; 
+}
+
+</script>
+    
+</body>
+</html>
